@@ -8,7 +8,7 @@ namespace ThreadSleep
 {
     internal class TaskEx1
     {
-        static void Main(string[] args)
+        static void Main8(string[] args)
         {
             Task t1 = new Task(PrintInformation);
             t1.Start();
